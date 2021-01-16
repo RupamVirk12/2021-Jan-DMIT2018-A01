@@ -42,7 +42,8 @@ namespace ChinookSystem.Entities
         public int? Bytes { get; set; }
         public decimal UnitPrice { get; set; }
 
-
+        public virtual MediaType MediaType { get; set; }
+        public virtual Genre Genre { get; set; }
 
     }
 }

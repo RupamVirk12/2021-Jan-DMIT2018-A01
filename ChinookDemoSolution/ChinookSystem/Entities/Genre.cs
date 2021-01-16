@@ -32,5 +32,7 @@ namespace ChinookSystem.Entities
                 _Name = string.IsNullOrEmpty(value) ? null : value;
             }
         }
+
+        public virtual ICollection<Genre> Genres { get; set; }
     }
 }

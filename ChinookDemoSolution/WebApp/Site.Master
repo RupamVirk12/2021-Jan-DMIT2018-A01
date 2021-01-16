@@ -104,6 +104,15 @@
                                         href="~/SamplePages/TestPage.aspx"
                                         style="color:black" runat="server">
                                    Test menu page</a>
+                                <a class="dropdown-item"
+                                        href="~/SamplePages/ArtistAlbums.aspx"
+                                        style="color:black" runat="server">
+                                   List All Artist Albums</a>
+
+                                <a class="dropdown-item"
+                                        href="~/SamplePages/SearchByDDL.aspx"
+                                        style="color:black" runat="server">
+                                   Filter Search Sample</a>
                             </div>
                          </li>
                          <li class="nav-item">

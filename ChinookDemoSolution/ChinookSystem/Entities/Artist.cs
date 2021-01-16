@@ -11,7 +11,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ChinookSystem.Entities
 {
-    [Table("Arstists")]
+    [Table("Artists")]
     internal class Artist
     {
         [Key]

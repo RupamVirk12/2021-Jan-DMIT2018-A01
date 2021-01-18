@@ -28,7 +28,7 @@ namespace ChinookSystem.BLL
                 IEnumerable<ArtistAlbums> results = from x in context.Albums
                                                     select new ArtistAlbums
                                                     {
-                                                        Tilte = x.Title,
+                                                        Title = x.Title,
                                                         ReleaseYear = x.ReleaseYear,
                                                         ArtistName = x.Artist.Name
                                                     };
@@ -46,9 +46,10 @@ namespace ChinookSystem.BLL
                                                     where x.ArtistId == artistid
                                                     select new ArtistAlbums
                                                     {
-                                                        Tilte = x.Title,
+                                                        Title = x.Title,
                                                         ReleaseYear = x.ReleaseYear,
-                                                        ArtistName = x.Artist.Name
+                                                        ArtistName = x.Artist.Name,
+                                                        ArtistId = x.ArtistId
                                                     };
                 return results.ToList();
             }

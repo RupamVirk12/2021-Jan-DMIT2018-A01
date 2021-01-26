@@ -11,35 +11,8 @@ namespace WebApp.SamplePages
 {
 
 
-    public partial class SearchByDDL
+    public partial class ListViewODSCRUD
     {
-
-        /// <summary>
-        /// ArtistLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ArtistLabel;
-
-        /// <summary>
-        /// ArtistList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ArtistList;
-
-        /// <summary>
-        /// SearchAlbums control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton SearchAlbums;
 
         /// <summary>
         /// MessageUserControl control.
@@ -51,21 +24,48 @@ namespace WebApp.SamplePages
         protected global::FreeCode.WebApp.UserControls.MessageUserControl MessageUserControl;
 
         /// <summary>
-        /// ArtistAlbumList control.
+        /// ValidationSummaryEdit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView ArtistAlbumList;
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummaryEdit;
 
         /// <summary>
-        /// ArtistNameListODS control.
+        /// ValidationSummaryInsert control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource ArtistNameListODS;
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummaryInsert;
+
+        /// <summary>
+        /// AlbumList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView AlbumList;
+
+        /// <summary>
+        /// AlbumListODS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource AlbumListODS;
+
+        /// <summary>
+        /// ArtistListODS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource ArtistListODS;
     }
 }

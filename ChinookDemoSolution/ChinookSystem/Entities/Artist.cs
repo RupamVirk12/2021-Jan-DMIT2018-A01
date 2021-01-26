@@ -11,13 +11,20 @@ namespace ChinookSystem.Entities
     {
         private string _Name;
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+
+        //constructor helps in transactional process
+        //when we create recods, it creates a hash set (set of unique number)
+        //stage our transactional commands(add,update, delete)
+        //EF will use it there
         public Artist()
         {
             Albums = new HashSet<Album>();
         }
 
+        //don't need Key annotation
         public int ArtistId { get; set; }
 
+        //need to add error messages
         [StringLength(120, ErrorMessage ="Artist name is limited to 120 characters")]
         public string Name { 
             get { return _Name; } 
